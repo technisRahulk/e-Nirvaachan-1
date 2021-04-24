@@ -1,6 +1,4 @@
-# Pet Shop Truffle Box
-
-This box has all you need to get started with our [Pet Shop tutorial](http://truffleframework.com/tutorials/pet-shop).
+# E-Nirvaachan
 
 ## Installation
 
@@ -9,9 +7,9 @@ This box has all you need to get started with our [Pet Shop tutorial](http://tru
     npm install -g truffle
     ```
 
-2. Download the box. This also takes care of installing the necessary dependencies.
+2. Clone the repo. This also takes care of installing the necessary dependencies.
     ```javascript
-    truffle unbox pet-shop
+    git clone https://github.com/technisRahulk/e-Nirvaachan.git
     ```
 
 3. Run the development console.
@@ -30,11 +28,3 @@ This box has all you need to get started with our [Pet Shop tutorial](http://tru
     // Serves the front-end on http://localhost:3000
     npm run dev
     ```
-
-**NOTE**: This box is not a complete dapp, but the starting point for the [Pet Shop tutorial](http://truffleframework.com/tutorials/pet-shop). You'll need to complete that for this to function.
-
-## FAQ
-
-* __How do I use this with the EthereumJS TestRPC?__
-
-    It's as easy as modifying the config file! [Check out our documentation on adding network configurations](http://truffleframework.com/docs/advanced/configuration#networks). Depending on the port you're using, you'll also need to update line 16 of `src/js/app.js`.
